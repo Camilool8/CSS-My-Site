@@ -48,7 +48,6 @@ hr{
     
 }
 
-
 .middle-container{
     margin: 20px auto;
 
@@ -58,7 +57,7 @@ hr{
     margin-top: 100px;
     background-color: #66BFBF;
     padding: 50px;
-;
+
 }
 
 .skill-row{
@@ -130,21 +129,26 @@ hr{
     margin-top: 50px;
   }
   
-  .btn:hover {
+.btn:hover {
     background: #364F6B;
     text-decoration: none;
   }
 
-  .footer-link{
+
+a:hover{
+    text-decoration: underline;
+}
+
+.footer-link{
     color: #364F6B;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
-    padding: 0px 10px;
+    margin: 0px 20px;
   }
 
-  .copyright{
+.copyright{
     color: #F5F5F5;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
