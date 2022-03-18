@@ -1,6 +1,6 @@
 
 body{
-    
+    color: #40514E;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -18,12 +18,17 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: bold;
+    padding-top: 10px;
 }
 
 h3{
     color: #3FC1C9;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+
+p{
+    line-height: 2;
 }
 
 hr{
@@ -39,11 +44,13 @@ hr{
     background-color:#F5F5F5;
     position: relative;
     padding-top: 100px;
+    margin: auto 0 auto 0;
     
 }
 
 
 .middle-container{
+    margin: 20px auto;
 
 }
 
@@ -55,7 +62,6 @@ hr{
 }
 
 .skill-row{
-    line-height: 2;
     text-align: left;
     margin: 100px auto 150px auto;
     width: 50%;
@@ -78,6 +84,11 @@ hr{
 
 .pro{
     text-decoration: underline;
+}
+
+.intro{
+    width: 50%;
+    margin: auto;
 }
 
 .bottom-cloud{
@@ -140,4 +151,5 @@ hr{
     font-weight: bold;
     text-decoration: none;
     padding: 0px 10px;
+    margin: 50px auto 0 auto;
   }
